@@ -1,0 +1,31 @@
+/* General box styling */
+.Box {
+    display: inline-block;
+    margin: 10px;
+    position: relative; /* Needed for positioning the delete button */
+    overflow: hidden; /* Ensures the button doesn't overflow */
+  }
+  
+  /* Delete button styling */
+  .Box-delete {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    color: black; 
+    font-weight: bold;
+    font-size: 16px;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    line-height: 18px; 
+    padding: 0;
+  }
+
+  .Box-delete:hover {
+    background-color: rgba(255, 0, 0, 0.8); 
+    color: white; 
+    border-color: red; 
+  }
+  
